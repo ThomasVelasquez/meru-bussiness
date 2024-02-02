@@ -13,9 +13,9 @@ export const CardProducts = ({ items }) => {
   };
 
   return (
-    <div className="container mt-5" >
+    <div className="container mt-5 pt-4" >
       <h3>Destacados auto</h3>
-      <Container className="mt-5 d-flex flex-wrap justify-content-center gap-2" >
+      <Container className="mt-5 d-flex flex-wrap justify-content-center gap-2 mb-5 pb-5" >
         {!items
           ? items?.map((product) => (
               <Card style={{ width: "18rem" }}>

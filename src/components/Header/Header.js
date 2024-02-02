@@ -25,34 +25,14 @@ export const Header = () => {
           <Navbar.Brand href="/" className="w-25 ms-5">
             <Image src={logoMeru} alt="logo" className="w-50" fluid />
           </Navbar.Brand>
-          <Navbar.Toggle
-            aria-controls="navbarScroll"
-            className={`${styles.burg_toogle}`}
-          />
-          <Navbar.Collapse id="navbarScroll">
-            <Nav
-              className="me-auto my-2 my-lg-0 w-100 d-flex  "
-              style={{ maxHeight: "100px" }}
-              navbarScroll
-            >
-              <Form className="d-flex justify-content-between align-items-center w-100">
-                <Form.Control
-                  type="search"
-                  placeholder="Search"
-                  className="me-2 w-75"
-                  aria-label="Search"
-                />
-                <div className="d-flex">
-                  <Button variant="btn bg-light me-3" onClick={redirect}>
-                    <FontAwesomeIcon icon={faShoppingCart} />
-                  </Button>
-                  <Button variant="btn me-3" className={styles.loginbutton}>
-                    Ingresar
-                  </Button>
-                </div>
-              </Form>
-            </Nav>
-          </Navbar.Collapse>
+            <div className="d-flex">
+              <Button variant="btn bg-light me-3" onClick={redirect}>
+                <FontAwesomeIcon icon={faShoppingCart} />
+              </Button>
+              <Button variant="btn me-3" className={styles.loginbutton}>
+                Ingresar
+              </Button>
+            </div>
         </Container>
       </Navbar>
       <div className="bg-dark text-light w-75 text-center">
