@@ -103,7 +103,7 @@ export const DetailedProduct = () => {
     <div>
       <Header />
       <Container style={{ height: "80vh" }}>
-        <Row className="mt-5">
+        <Row className="mt-5 d-flex justify-content-center align-items-center">
           <Col md={7}>
             <Image src={oilKit} className="w-75" />
           </Col>
