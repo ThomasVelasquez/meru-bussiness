@@ -84,7 +84,7 @@ export const Cart = () => {
   return (
     <div>
       <Header />
-      <Container className="mt-5">
+      <Container className="mt-5 mb-5" style={{height:"70vh"}} >
         <h3 className="text-center">Carrito</h3>
         <Row>
           <Col xs={12} md={8}>

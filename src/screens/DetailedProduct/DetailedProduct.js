@@ -122,7 +122,7 @@ export const DetailedProduct = () => {
                 type="number"
                 value={quantity}
                 readOnly
-                className={styles.input_number}
+                className={`${styles.input_number} ms-3`}
               />
               <button
                 onClick={handleIncrement}
