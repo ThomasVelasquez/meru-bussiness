@@ -1,0 +1,16 @@
+.background{
+    background-color: #002333;
+}
+
+.loginbutton{
+    background-color: #5BD1D7 !important ;
+    color: white !important;
+}
+
+.loginbutton:hover {
+    background-color: gray !important ;
+}
+
+.burg_toogle {
+    background-color: white !important;
+}
