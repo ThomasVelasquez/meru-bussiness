@@ -138,12 +138,12 @@ export const DetailedProduct = () => {
                 Agregar ${detail?.price * quantity} {/* Precio total */}
               </button>
             </div>
-            {alertMessage == true && (
+            {alertMessage === true && (
               <div class="alert alert-danger" role="alert">
                 No tenemos más unidades en inventario.
               </div>
             )}
-            {alertMessage == false && (
+            {alertMessage === false && (
               <div class="alert alert-success" role="alert">
                 Articulos agregados al carrito.
               </div>
